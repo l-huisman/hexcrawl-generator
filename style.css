@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+#hex-map {
+    margin: 32px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.placeholder {
+    color: #888;
+    text-align: center;
+}
+
+#hex-legend {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+#hex-legend span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #555;
+    margin-right: 4px;
+}
